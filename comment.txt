@@ -1,0 +1,63 @@
+####################################################################
+information collected from survey:
+
+一体机, 9代i7, GTX2060
+source: https://www.dell.com/
+wire needed: 15M
+
+b/a = 34.95%, c/b = 69.44%, c/a = 24.27%
+
+time/b = 2.629 h/week (1 ~ 4)
+price/b = 11.01 yuan/h (5 ~ 15)
+
+seat/c = 4.529 seats (4 ~ 5)
+price/c = 27.08 yuan/h (15 ~ 35)
+
+####################################################################
+student population estimatation (with linear regression)
+using the data from 2014 to 2019
+n(year) = 274.19+516.91*log(year - 2013)
+
+the range of each time/week and price/hour
+are estimated with 1st and 3rd quantiles of the data.
+
+the time spent in private room is estimated with usertime / 5
+where 5 is the seats in one room.
+
+the project will be hold for 5 years.
+
+####################################################################
+It's assumed that there is no variable as usertime increases.
+Additionally, no Net Working Capital is needed.
+
+the Gross Profit is sum of time * rate * number of students
+for public seats and private room.
+
+the ratio of computer in privateroom with publicplace
+is the ratio of demand in private room.
+
+####################################################################
+The Computer needed is estimated by
+total use time per day using the number of students this year.
+valid working time per day which is 12 hours.
+
+the size of each privateroom is 20 m^2, each public seat needs 2 m^2
+
+the equipment inculdes computer 9200
+screen 1400
+desk and chair 700
+mouse, keyboard and headset 200
+The Air condition is also needed.
+
+The deprecation is using straight-line method with 0 salvage value.
+The service time is 5 year according to law.
+####################################################################
+Fixed cost consists of rent, salary and utility.
+4 cleaning personnel 3360 # 3000 ~ 4500
+and 5 administrators 3000 # 1500 ~ 5000
+will be hired.
+# source: https://www.jobui.com/salary 
+
+####################################################################
+tax
+required return
